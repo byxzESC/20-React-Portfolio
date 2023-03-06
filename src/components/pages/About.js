@@ -1,10 +1,8 @@
 import React from 'react';
-import header from '../Header';
-import footer from '../Footer';
 
 export default function About() {
   return (
-    <div id='home'>
+    <div id='about'>
       <h3>About me</h3>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
