@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/20-React-Portfolio/static/css/main.77fff20f.css",
-    "main.js": "/20-React-Portfolio/static/js/main.8bfb7a87.js",
+    "main.css": "/20-React-Portfolio/static/css/main.63e81f07.css",
+    "main.js": "/20-React-Portfolio/static/js/main.3cb1564f.js",
     "static/js/787.a2cb61a6.chunk.js": "/20-React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/devPic.jpg": "/20-React-Portfolio/static/media/devPic.f28e08c1b653f17d2c4f.jpg",
     "static/media/socialNetworkApi.JPG": "/20-React-Portfolio/static/media/socialNetworkApi.34a847ca370a2174f0a3.JPG",
@@ -11,12 +11,12 @@
     "static/media/weatherDashBoard.JPG": "/20-React-Portfolio/static/media/weatherDashBoard.87c00edde2d7c9a10936.JPG",
     "static/media/textEditor.JPG": "/20-React-Portfolio/static/media/textEditor.f2e7ee28932580e0caa8.JPG",
     "index.html": "/20-React-Portfolio/index.html",
-    "main.77fff20f.css.map": "/20-React-Portfolio/static/css/main.77fff20f.css.map",
-    "main.8bfb7a87.js.map": "/20-React-Portfolio/static/js/main.8bfb7a87.js.map",
+    "main.63e81f07.css.map": "/20-React-Portfolio/static/css/main.63e81f07.css.map",
+    "main.3cb1564f.js.map": "/20-React-Portfolio/static/js/main.3cb1564f.js.map",
     "787.a2cb61a6.chunk.js.map": "/20-React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77fff20f.css",
-    "static/js/main.8bfb7a87.js"
+    "static/css/main.63e81f07.css",
+    "static/js/main.3cb1564f.js"
   ]
 }
