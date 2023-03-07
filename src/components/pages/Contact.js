@@ -82,6 +82,7 @@ export default function Contact() {
             name="name"
             onChange={handleInputChange}
             onBlur={removeValidationError}
+            placeholder="Joe Doe"
           ></input>
 
           <label>Email:</label>
@@ -90,6 +91,7 @@ export default function Contact() {
             name="email"
             onChange={handleInputChange}
             onBlur={removeValidationError}
+            placeholder="abc1234@hello@.com"
           ></input>
 
           <label>Message:</label>
@@ -100,7 +102,10 @@ export default function Contact() {
             onChange={handleInputChange}
             onBlur={removeValidationError}
           ></textarea>
+          <div className="button">
+
           <button type="submit">Submit</button>
+          </div>
         </form>
       </div>
 
