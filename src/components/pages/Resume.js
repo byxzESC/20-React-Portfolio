@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Resume() {
     return (
-        <div>
-            <h3>Resume</h3>
+        <div id="resume">
+            <h3 className="title">Resume</h3>
 
 {/* todo: add download */}
-            <a href="#">Download my resume</a>
+            <a href="#" download>Download my resume</a>
 
             <ul>Front-end Proficiencies</ul>
                 <li>HTML</li>

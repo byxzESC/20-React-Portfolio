@@ -50,40 +50,59 @@ export default function Contact() {
   };
 
   const removeValidationError = () => {
-    setInValidMessage("");
+
+
+
+      if (name === "") {
+        setInValidMessage("Name is required.");
+      } else if (email === "") {
+        setInValidMessage("Email is required.");
+
+      } else if (!validateEmail(email)) {
+        setInValidMessage("Invalid Email");
+
+      } else if (message === "") {
+        setInValidMessage("Message Field is empty");
+
+      }
+      setTimeout(function() {
+      setInValidMessage("")
+    }, 1000);
   };
 
   return (
-    <div className="container">
-      <h2>Contact Me</h2>
-      <h4 className="invalidmessage">{inValidMessage}</h4>
-      <form className="form" onSubmit={handleSubmit}>
-        <label>Name:</label>
-        <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          onBlur={removeValidationError}
-        ></input>
 
-        <label>Email:</label>
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          onBlur={removeValidationError}
-        ></input>
+      <div id="contact">
+        <h3 className="title">Contact me</h3>
+        <h4 className="invalidmessage">{inValidMessage}</h4>
+        <form className="form" onSubmit={handleSubmit}>
+          <label>Name:</label>
+          <input
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            onBlur={removeValidationError}
+          ></input>
 
-        <label>Message:</label>
-        <br />
-        <textarea
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          onBlur={removeValidationError}
-        ></textarea>
-        <button type="submit">Submit</button>
-      </form>
-    </div>
+          <label>Email:</label>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            onBlur={removeValidationError}
+          ></input>
+
+          <label>Message:</label>
+          <br />
+          <textarea
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            onBlur={removeValidationError}
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
   );
 }

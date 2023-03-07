@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
 export default function About() {
   return (
-    <div id='about'>
-      <h3>About me</h3>
+    <div id="about">
+      <h3 className="title">About me</h3>
+{/* photo or avatar of the dev */}
+      <img alt="photo or avatar of the dev" /> 
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
