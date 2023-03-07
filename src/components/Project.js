@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function renderProject(project) {
+  
   return (
     <div className="project card">
       <label className="project-label">{project.name}</label>
