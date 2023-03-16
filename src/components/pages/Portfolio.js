@@ -5,10 +5,16 @@ import noteableImage from "./images/noteable.JPG";
 import textEditorImage from "./images/textEditor.JPG";
 import socialNetworkApiImage from "./images/socialNetworkApi.JPG";
 import codeQuizImage from "./images/codeQuiz.JPG";
-import weatherDashboardImage from "./images/weatherDashBoard.JPG";
+import studyioImage from "./images/studyio.png";
 
 export default function Portfolio() {
   const projects = [
+    {
+      name: "Study.IO",
+      image: studyioImage,
+      deployLink: "https://studyioflash.herokuapp.com/",
+      gitLink: "https://github.com/silkyjazz/react-flashcards",
+    },
     {
       name: "Event Planner",
       image: eventPlannerImage,
@@ -39,12 +45,6 @@ export default function Portfolio() {
       image: codeQuizImage,
       deployLink: "https://byxzesc.github.io/04-Code-Quiz/",
       gitLink: "https://github.com/byxzESC/04-Code-Quiz",
-    },
-    {
-      name: "Weather Dashboard",
-      image: weatherDashboardImage,
-      deployLink: "https://byxzesc.github.io/06-Weather-Dashboard/",
-      gitLink: "https://github.com/byxzESC/06-Weather-Dashboard",
     },
   ];
 
